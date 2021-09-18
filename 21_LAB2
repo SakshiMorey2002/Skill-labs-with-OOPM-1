@@ -1,0 +1,58 @@
+// To add two numbers
+import java.util.Scanner;
+
+public class MyClass {
+    public static void main(String args[]) {
+      int x=10;
+      int y=25;
+      int z=x+y;
+
+      System.out.println("Sum of x+y = " + z);
+    }
+}
+
+
+// To print numbers entered by the user
+import java.util.Scanner;
+ public class Lab1 {
+public static void main(String[] args) { Scanner sc = new Scanner(System.in); int n1,n2,temp;
+System.out.println("Enter first number"); n1=sc.nextInt();
+System.out.println("Enter second number"); n2=sc.nextInt();
+System.out.println("Numbers are "+n1 +" " + n2);
+}
+}
+
+
+//to swap two numbers
+import java.util.Scanner; public class Lab1 {
+public static void main(String[] args) { Scanner sc = new Scanner(System.in); int n1,n2,temp;
+System.out.println("Enter first number"); n1=sc.nextInt();
+System.out.println("Enter second number"); n2=sc.nextInt();
+System.out.println("\n SWAPPING\n"); temp=n1;
+ 
+
+n1=n2; n2=temp;
+System.out.println("After swapping Number 1 = "+n1+" Number 2 = "+n2);
+}
+}
+
+
+// TO CHECK WHETHER NUMBER IS EVEN OR ODD
+
+import java.util.Scanner;
+
+public class EvenOdd {
+
+    public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+
+        if(num % 2 == 0)
+            System.out.println(num + " is even");
+        else
+            System.out.println(num + " is odd");
+    }
+}
